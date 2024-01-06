@@ -1,0 +1,188 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(93, 84, 240, 0.5);
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 168, 255, 0.5),
+    rgba(185, 0, 255, 0.5)
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(0, 168, 255, 0.5),
+    rgba(185, 0, 255, 0.5)
+  );
+  background: -moz-linear-gradient(
+    left,
+    rgba(0, 168, 255, 0.5),
+    rgba(185, 0, 255, 0.5)
+  );
+  background: linear-gradient(
+    left,
+    rgba(0, 168, 255, 0.5),
+    rgba(185, 0, 255, 0.5)
+  );
+}
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #ffffffaf;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.container .form {
+  margin-top: 30px;
+}
+
+
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-box input {
+  background: transparent;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #b5b2b2;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select{
+  
+}
+.select-box {
+  position: relative;
+  display: inline-block;
+}
+
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #707070;
+  font-size: 1rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.select-box:after {
+  content: '\25BC';
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* Styling the dropdown options */
+.select-box select option {
+  background-color: #ffffffa7; /* Ganti warna latar belakang sesuai kebutuhan */
+  color: #333;
+}
+
+
+.form .batal {
+    margin-top: 40px;
+    background-color: #ee6e6e;
+}
+.form button{
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(106, 164, 251);
+}
+.form .submit:hover {
+  background: rgb(17, 128, 196);
+}
+.form .batal:hover {
+    background-color: #d52a2a;
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
