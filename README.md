@@ -16,7 +16,7 @@ Dosen    : Agung Nugroho, S.Kom., M.KOM
 - **[Tentang Website](#tentang-website)**<br>
 - **[Fitur-Fitur Website](#fitur-fitur-website)**<br>
 - **[Demo Website](#demo-website)**<br>
-- **[Link PDF]()**<br>
+- **[Link PDF](https://drive.google.com/file/d/1IVwpWA-L6iKxxg8F7Mzg8k-ucped-wvy/view?usp=sharing)**<br>
 - **[Link Presentasi Sistem]()**<br>
 
 # **Tentang Website**
@@ -112,4 +112,3 @@ Proyek ini menggunakan sejumlah framework dan tools canggih, termasuk:
 Dan Lainnya: Kami juga mengandalkan sejumlah tools dan teknologi terkini untuk memastikan keberlanjutan dan kehandalan proyek ini.
 
 ## **Demo Website**
-dipca
