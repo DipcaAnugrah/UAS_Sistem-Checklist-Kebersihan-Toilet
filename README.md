@@ -112,3 +112,11 @@ Proyek ini menggunakan sejumlah framework dan tools canggih, termasuk:
 Dan Lainnya: Kami juga mengandalkan sejumlah tools dan teknologi terkini untuk memastikan keberlanjutan dan kehandalan proyek ini.
 
 ## **Demo Website**
+
+Untuk video demonstrasi websitenya bisa di [klik disini](https://drive.google.com/file/d/1IBC0L1SBC3lZNRdbfPcKDyXhjCdgr1gw/view?usp=drive_link)
+
+## **Presentasi dan demonstrasi Proyek**
+
+Untuk link presentasi dan dokumentasi proyek bisa di [klik disini](https://youtu.be/4mhAFKjN5mo?si=Pr58OYmd_s8zVgSK)
+
+<h1 align="center"> TERIMAKASIH </h1>
