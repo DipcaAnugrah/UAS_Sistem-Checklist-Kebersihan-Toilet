@@ -1,4 +1,5 @@
-# **UAS Sistem Checklist Kebersihan Toilet**
+
+<h1 align="center" font-weight="bold"> UAS Sistem Checklist Kebersihan Toilet </h1>
 
 ```
 Matkul   : Pemrograman Web 1
@@ -17,7 +18,7 @@ Dosen    : Agung Nugroho, S.Kom., M.KOM
 - **[Fitur-Fitur Website](#fitur-fitur-website)**<br>
 - **[Demo Website](#demo-website)**<br>
 - **[Link PDF](https://drive.google.com/file/d/1IVwpWA-L6iKxxg8F7Mzg8k-ucped-wvy/view?usp=sharing)**<br>
-- **[Link Presentasi Sistem]()**<br>
+- **[Link Presentasi Sistem](#presentasi-dan-demonstrasi-proyek)**<br>
 
 # **Tentang Website**
 
