@@ -6,11 +6,25 @@ Matkul   : Pemrograman Web 1
 Dosen    : Agung Nugroho, S.Kom., M.KOM
 ```
 
-| KELOMPOK 4:      |             |
-| :--------------- | :----------- |
-| Dipca Anugrah    | (312210666)  |
-| Ahmad Hapizhudin | (312210370)  |
-| Hasbi Assidiki   | (312210448)A |
+<h3 align="center">-----------KELOMPOK 4----------</h3>
+<table align="center">
+   <tr>
+      <th>Nama</th>
+      <th>NIM</th>
+   </tr>
+   <tr>
+      <td>Dipca Anugrah</td>
+      <td>312210666</td>
+   </tr>
+      <tr>
+      <td>Ahmad Hapizhudin</td>
+      <td>312210370</td>
+   </tr>
+      <tr>
+      <td>Hasbi Assidiki</td>
+      <td>312210448</td>
+   </tr>
+</table>
 
 ## **Daftar Isi**
 
